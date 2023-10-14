@@ -1,0 +1,21 @@
+body{display: flex;
+flex-direction: column;}
+.logo{float: left;
+      padding: 20px;
+    
+       font-size: 30px;
+       color: white;}
+.list ul{display: flex;flex-wrap: wrap;}
+.list li{
+    list-style: none;
+   float: left;
+    padding:  20px 20px;
+    justify-content: flex-end;
+    color: white;}
+.header{background-color: green;}
+
+.f-list li{
+    float: right;
+    list-style: none;
+}
+.footer{background-color: gray;}
